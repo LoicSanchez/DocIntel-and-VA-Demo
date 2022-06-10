@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.39",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "d1388fc363db440f971a22aba24c224a": {
+          "id": "d1388fc363db440f971a22aba24c224a",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "cde0014eaa9943f3ad847d54cf1ea35a": {
+          "id": "cde0014eaa9943f3ad847d54cf1ea35a",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9386a2661e764a7bb4388a96141d2113": {
+          "id": "9386a2661e764a7bb4388a96141d2113",
+          "stepType": "Prompt",
+          "name": "Get file",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I will need a proof of residency to continue, a utility bill or phone bill would work."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thanks! Our specialists will review your file and get back to you."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b96aae6f1ba74012ad0d091122dfc09f"
+        },
+        "1f27ca58b29e4aceb58788e44e7f1ba1": {
+          "id": "1f27ca58b29e4aceb58788e44e7f1ba1",
+          "name": "Create task with attachement",
+          "script": "(function execute() {\n\tvar empInfoTaskGR = new GlideRecord('x_snc_employee_i_0_employee_info_task');\n\tempInfoTaskGR.initialize();\n\tempInfoTaskGR.insert();\n    vaSystem.attachToRecord(vaInputs.get_file.getValue(), 'x_snc_employee_i_0_employee_info_task', empInfoTaskGR.getUniqueValue());\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "4c1dfb369da643b49b589e6199640219": {
+          "id": "4c1dfb369da643b49b589e6199640219",
+          "stepType": "TextOutput",
+          "name": "Chit chat",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "It sounds like you've moved to a new location, congrats and we hope it went well! I can update your profile to reflect this."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ba880618ac614769860a4c5f7401735f",
+          "edgeType": "Edge",
+          "source": "9386a2661e764a7bb4388a96141d2113",
+          "target": "1f27ca58b29e4aceb58788e44e7f1ba1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ce660876c9614b40b75421ca6aad4f61",
+          "edgeType": "Edge",
+          "source": "1f27ca58b29e4aceb58788e44e7f1ba1",
+          "target": "cde0014eaa9943f3ad847d54cf1ea35a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f5bbcacb7260404788b88a16257d53d9",
+          "edgeType": "Edge",
+          "source": "d1388fc363db440f971a22aba24c224a",
+          "target": "4c1dfb369da643b49b589e6199640219",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4fab8a6202894c4bb91fe52d70254070",
+          "edgeType": "Edge",
+          "source": "4c1dfb369da643b49b589e6199640219",
+          "target": "9386a2661e764a7bb4388a96141d2113",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "b96aae6f1ba74012ad0d091122dfc09f": {
+      "id": "b96aae6f1ba74012ad0d091122dfc09f",
+      "name": "get_file",
+      "label": "Get File",
+      "varType": "file",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Moving to a different city,moving,address,address change,moving,change state</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Moving to a different city</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 15:19:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>46ab31998753891008ea0d05dabb35e6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Moving to a different city</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>sys_cb_topic_46ab31998753891008ea0d05dabb35e6</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-06 19:08:06</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=46ab31998753891008ea0d05dabb35e6"/>
+</record_update>

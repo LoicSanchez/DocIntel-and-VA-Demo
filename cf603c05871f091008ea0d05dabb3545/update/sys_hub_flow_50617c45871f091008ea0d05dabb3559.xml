@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch2-03-31-2022_04-12-2022_1531.zip</compiler_build>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>document_processing__employee_info</internal_name>
+        <label_cache>[{"name":"187e4be1-b53e-40f0-97eb-c36cc195f534.__dont_treat_as_error__","label":"2 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"187e4be1-b53e-40f0-97eb-c36cc195f534.__action_status__","label":"2 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"187e4be1-b53e-40f0-97eb-c36cc195f534.task","label":"2 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Employee Info Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"number"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Employee Info Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"sys_id"},{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"78d8766c-8e4d-4eca-9497-a409ff2edbc4.task_id","label":"1 - DocIntel Task Processing Action➛Task ID","reference_display":"Task ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"83745c29-b1bc-4d11-8d8c-c91120e7d99e"}},{"name":"78d8766c-8e4d-4eca-9497-a409ff2edbc4.__dont_treat_as_error__","label":"1 - DocIntel Task Processing Action➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"01a137f5-16df-4080-828a-9e407a1f66da"}},{"name":"78d8766c-8e4d-4eca-9497-a409ff2edbc4.__action_status__","label":"1 - DocIntel Task Processing Action➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD5e400bfb6f368510d9f0ae0921a1cb01","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"c02cc701-f528-4621-9b9a-27fecffe304a"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.record","label":"2 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.table_name","label":"2 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"1e9ad436-5f09-4f59-9a60-d95a46d7bdb9.Task","label":"2 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e9ad436-5f09-4f59-9a60-d95a46d7bdb9.__action_status__","label":"2 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"1e9ad436-5f09-4f59-9a60-d95a46d7bdb9.__dont_treat_as_error__","label":"2 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master_snapshot>da0c4981879f091008ea0d05dabb358f</master_snapshot>
+        <name>Document Processing - Employee Info</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>fe0c8981879f091008ea0d05dabb3504</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 15:16:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50617c45871f091008ea0d05dabb3559</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Document Processing - Employee Info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>sys_hub_flow_50617c45871f091008ea0d05dabb3559</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:36</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=50617c45871f091008ea0d05dabb3559"/>
+    <sys_variable_value action="delete_multiple" query="document_key=50617c45871f091008ea0d05dabb3559"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_employee_i_0_employee_info_task">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe0c8981879f091008ea0d05dabb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:17</sys_updated_on>
+        <table>x_snc_employee_i_0_employee_info_task</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"4b3d4e9187d3891008ea0d05dabb3552","name":"trigger_runner","type":"java.util.HashMap"}</data>
+        <identifier>50617c45871f091008ea0d05dabb3559</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 16:36:36</sys_created_on>
+        <sys_id>4b3d4e9187d3891008ea0d05dabb3552</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:48:06</sys_updated_on>
+        <trigger display_value="">fe0c8981879f091008ea0d05dabb3504</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
+        <document_id>4b3d4e9187d3891008ea0d05dabb3552</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 16:48:06</sys_created_on>
+        <sys_id>2fdf869587d3891008ea0d05dabb35af</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=50617c45871f091008ea0d05dabb3559^sys_idNOT IN4b3d4e9187d3891008ea0d05dabb3552"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=50617c45871f091008ea0d05dabb3559^sys_idNOT IN390c4981879f091008ea0d05dabb3532"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Document Processing - Employee Info">50617c45871f091008ea0d05dabb3559</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>390c4981879f091008ea0d05dabb3532</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:36</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=390c4981879f091008ea0d05dabb3532"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>390c4981879f091008ea0d05dabb3532</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>790c4981879f091008ea0d05dabb3533</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:13</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>390c4981879f091008ea0d05dabb3532</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>b10c4981879f091008ea0d05dabb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:13</sys_updated_on>
+        <value>x_snc_employee_i_0_employee_info_task</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=50617c45871f091008ea0d05dabb3559"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=50617c45871f091008ea0d05dabb3559^sys_idNOT IN20617c45871f091008ea0d05dabb355b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>50617c45871f091008ea0d05dabb3559</id>
+        <name>Document Processing - Employee Info</name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 15:16:48</sys_created_on>
+        <sys_id>20617c45871f091008ea0d05dabb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 15:16:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=20617c45871f091008ea0d05dabb355b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=50617c45871f091008ea0d05dabb3559^sys_idNOT INa90c4981879f091008ea0d05dabb351c,f10c4981879f091008ea0d05dabb3521"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Document Processing - Employee Info">50617c45871f091008ea0d05dabb3559</model>
+        <model_id>50617c45871f091008ea0d05dabb3559</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_50617c45871f091008ea0d05dabb3559</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>a90c4981879f091008ea0d05dabb351c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Document Processing - Employee Info">50617c45871f091008ea0d05dabb3559</model>
+        <model_id>50617c45871f091008ea0d05dabb3559</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_50617c45871f091008ea0d05dabb3559</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>f10c4981879f091008ea0d05dabb3521</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=50617c45871f091008ea0d05dabb3559"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=50617c45871f091008ea0d05dabb3559"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=50617c45871f091008ea0d05dabb3559^sys_idNOT IN36cde5d58713891008ea0d05dabb35d6,710c4981879f091008ea0d05dabb353c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Worknote">4d7227a473210300e4fd234ffff6a712</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Document Processing - Employee Info">50617c45871f091008ea0d05dabb3559</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:19:14</sys_created_on>
+        <sys_id>36cde5d58713891008ea0d05dabb35d6</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:41:43</sys_updated_on>
+        <ui_id>187e4be1-b53e-40f0-97eb-c36cc195f534</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36cde5d58713891008ea0d05dabb35d6"/>
+    <sys_element_mapping action="delete_multiple" query="id=36cde5d58713891008ea0d05dabb35d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>36cde5d58713891008ea0d05dabb35d6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:19:14</sys_created_on>
+        <sys_id>b6cde5d58713891008ea0d05dabb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 14:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36cde5d58713891008ea0d05dabb35d6^sys_idNOT INb2cde5d58713891008ea0d05dabb35d7,e01fe5598713891008ea0d05dabb3527"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_work_note</input_name>
+        <instance>36cde5d58713891008ea0d05dabb35d6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_work_note":{"scriptActive":true,"script":"\nvar final \u003d \u0027DocIntel task created, AI training started\u0027;\nreturn final;"}}</script>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:19:14</sys_created_on>
+        <sys_id>b2cde5d58713891008ea0d05dabb35d7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 14:45:27</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_task</input_name>
+        <instance>36cde5d58713891008ea0d05dabb35d6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_task":{"scriptActive":false}}</script>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:24:48</sys_created_on>
+        <sys_id>e01fe5598713891008ea0d05dabb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 14:24:48</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36cde5d58713891008ea0d05dabb35d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="DocIntel Task Processing Action">0640c7fb973685101f49765e6253afc2</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>0640c7fb973685101f49765e6253afc2</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Document Processing - Employee Info">50617c45871f091008ea0d05dabb3559</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>710c4981879f091008ea0d05dabb353c</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:41:43</sys_updated_on>
+        <ui_id>78d8766c-8e4d-4eca-9497-a409ff2edbc4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=710c4981879f091008ea0d05dabb353c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>710c4981879f091008ea0d05dabb353c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:14</sys_created_on>
+        <sys_id>460c4981879f091008ea0d05dabb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:14</sys_updated_on>
+        <value>43d7b40d871f091008ea0d05dabb359e</value>
+        <variable display_value="Task Definition">0e40c7fb973685101f49765e6253afce</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=710c4981879f091008ea0d05dabb353c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record_sysid</field>
+        <id>710c4981879f091008ea0d05dabb353c</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:14</sys_created_on>
+        <sys_id>4e0c4981879f091008ea0d05dabb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_table_name</field>
+        <id>710c4981879f091008ea0d05dabb353c</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:14</sys_created_on>
+        <sys_id>020c4981879f091008ea0d05dabb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value>{{Created_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_definition</field>
+        <id>710c4981879f091008ea0d05dabb353c</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:14</sys_created_on>
+        <sys_id>c20c4981879f091008ea0d05dabb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_name</field>
+        <id>710c4981879f091008ea0d05dabb353c</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:14</sys_created_on>
+        <sys_id>860c4981879f091008ea0d05dabb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value>DocIntel Task for {{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=710c4981879f091008ea0d05dabb353c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=710c4981879f091008ea0d05dabb353c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=50617c45871f091008ea0d05dabb3559"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=50617c45871f091008ea0d05dabb3559"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=50617c45871f091008ea0d05dabb3559"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=50617c45871f091008ea0d05dabb3559"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_50617c45871f091008ea0d05dabb3559^sys_idNOT IN350c4981879f091008ea0d05dabb3520,7d0c4981879f091008ea0d05dabb3523"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_50617c45871f091008ea0d05dabb3559</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>350c4981879f091008ea0d05dabb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_50617c45871f091008ea0d05dabb3559</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:13</sys_created_on>
+        <sys_id>7d0c4981879f091008ea0d05dabb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_50617c45871f091008ea0d05dabb3559"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_50617c45871f091008ea0d05dabb3559"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_50617c45871f091008ea0d05dabb3559"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=50617c45871f091008ea0d05dabb3559^sys_idNOT IN720c8981879f091008ea0d05dabb3514"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"720c8981879f091008ea0d05dabb3514","name":"plan","plan_signature":null}}</plan>
+        <plan_id>50617c45871f091008ea0d05dabb3559</plan_id>
+        <snapshot>0a6e0a1587d3891008ea0d05dabb35ac</snapshot>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>720c8981879f091008ea0d05dabb3514</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:36</sys_updated_on>
+        <trigger display_value="">fe0c8981879f091008ea0d05dabb3504</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=50617c45871f091008ea0d05dabb3559"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>document_processing__employee_info</internal_name>
+        <label_cache>[{"name":"187e4be1-b53e-40f0-97eb-c36cc195f534.__dont_treat_as_error__","label":"2 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"187e4be1-b53e-40f0-97eb-c36cc195f534.__action_status__","label":"2 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"187e4be1-b53e-40f0-97eb-c36cc195f534.task","label":"2 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Employee Info Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"number"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Employee Info Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"sys_id"},{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"78d8766c-8e4d-4eca-9497-a409ff2edbc4.task_id","label":"1 - DocIntel Task Processing Action➛Task ID","reference_display":"Task ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"83745c29-b1bc-4d11-8d8c-c91120e7d99e"}},{"name":"78d8766c-8e4d-4eca-9497-a409ff2edbc4.__dont_treat_as_error__","label":"1 - DocIntel Task Processing Action➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"01a137f5-16df-4080-828a-9e407a1f66da"}},{"name":"78d8766c-8e4d-4eca-9497-a409ff2edbc4.__action_status__","label":"1 - DocIntel Task Processing Action➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD5e400bfb6f368510d9f0ae0921a1cb01","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"c02cc701-f528-4621-9b9a-27fecffe304a"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.record","label":"2 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.table_name","label":"2 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"af1cfa75-3779-450a-983b-d2eab41bea53.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"1e9ad436-5f09-4f59-9a60-d95a46d7bdb9.Task","label":"2 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e9ad436-5f09-4f59-9a60-d95a46d7bdb9.__action_status__","label":"2 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"1e9ad436-5f09-4f59-9a60-d95a46d7bdb9.__dont_treat_as_error__","label":"2 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Document Processing - Employee Info</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Document Processing - Employee Info">50617c45871f091008ea0d05dabb3559</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da0c4981879f091008ea0d05dabb358f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:35</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=da0c4981879f091008ea0d05dabb358f^sys_idNOT IN220c4981879f091008ea0d05dabb35d9"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Document Processing - Employee Info">da0c4981879f091008ea0d05dabb358f</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>220c4981879f091008ea0d05dabb35d9</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:36</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=220c4981879f091008ea0d05dabb35d9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>220c4981879f091008ea0d05dabb35d9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>260c4981879f091008ea0d05dabb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>220c4981879f091008ea0d05dabb35d9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>e60c4981879f091008ea0d05dabb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <value>x_snc_employee_i_0_employee_info_task</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=da0c4981879f091008ea0d05dabb358f^sys_idNOT IN920c4981879f091008ea0d05dabb3591"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>da0c4981879f091008ea0d05dabb358f</id>
+        <name>Document Processing - Employee Info</name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:15</sys_created_on>
+        <sys_id>920c4981879f091008ea0d05dabb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=920c4981879f091008ea0d05dabb3591"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=da0c4981879f091008ea0d05dabb358f^sys_idNOT IN1a0c4981879f091008ea0d05dabb3592,d60c4981879f091008ea0d05dabb35b6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Document Processing - Employee Info">da0c4981879f091008ea0d05dabb358f</model>
+        <model_id>da0c4981879f091008ea0d05dabb358f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_da0c4981879f091008ea0d05dabb358f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:15</sys_created_on>
+        <sys_id>1a0c4981879f091008ea0d05dabb3592</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Document Processing - Employee Info">da0c4981879f091008ea0d05dabb358f</model>
+        <model_id>da0c4981879f091008ea0d05dabb358f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_da0c4981879f091008ea0d05dabb358f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>d60c4981879f091008ea0d05dabb35b6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=da0c4981879f091008ea0d05dabb358f^sys_idNOT IN37cd29d58713891008ea0d05dabb3570,ae0c4981879f091008ea0d05dabb35d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Worknote">4d7227a473210300e4fd234ffff6a712</action_type>
+        <action_type_parent display_value="Add Worknote">cdc8896487110300123eaf8e36cb0b24</action_type_parent>
+        <comment/>
+        <compiled_snapshot>4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Document Processing - Employee Info">da0c4981879f091008ea0d05dabb358f</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:19:17</sys_created_on>
+        <sys_id>37cd29d58713891008ea0d05dabb3570</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:35</sys_updated_on>
+        <ui_id>187e4be1-b53e-40f0-97eb-c36cc195f534</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=37cd29d58713891008ea0d05dabb3570"/>
+    <sys_element_mapping action="delete_multiple" query="id=37cd29d58713891008ea0d05dabb3570"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>37cd29d58713891008ea0d05dabb3570</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:19:17</sys_created_on>
+        <sys_id>b7cd29d58713891008ea0d05dabb3571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 14:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=37cd29d58713891008ea0d05dabb3570^sys_idNOT INb3cd29d58713891008ea0d05dabb3571,ba1f69598713891008ea0d05dabb3514"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_work_note</input_name>
+        <instance>37cd29d58713891008ea0d05dabb3570</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_work_note":{"scriptActive":true,"script":"\nvar final \u003d \u0027DocIntel task created, AI training started\u0027;\nreturn final;"}}</script>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:19:17</sys_created_on>
+        <sys_id>b3cd29d58713891008ea0d05dabb3571</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 14:45:37</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_task</input_name>
+        <instance>37cd29d58713891008ea0d05dabb3570</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_task":{"scriptActive":false}}</script>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 14:24:57</sys_created_on>
+        <sys_id>ba1f69598713891008ea0d05dabb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 14:24:57</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=37cd29d58713891008ea0d05dabb3570"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="DocIntel Task Processing Action">0640c7fb973685101f49765e6253afc2</action_type>
+        <action_type_parent display_value="DocIntel Task Processing Action">bc8efe7b973685101f49765e6253af5a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>0640c7fb973685101f49765e6253afc2</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Document Processing - Employee Info">da0c4981879f091008ea0d05dabb358f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>ae0c4981879f091008ea0d05dabb35d6</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 16:36:35</sys_updated_on>
+        <ui_id>78d8766c-8e4d-4eca-9497-a409ff2edbc4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae0c4981879f091008ea0d05dabb35d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae0c4981879f091008ea0d05dabb35d6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>2e0c4981879f091008ea0d05dabb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <value>43d7b40d871f091008ea0d05dabb359e</value>
+        <variable display_value="Task Definition">0e40c7fb973685101f49765e6253afce</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae0c4981879f091008ea0d05dabb35d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record_sysid</field>
+        <id>ae0c4981879f091008ea0d05dabb35d6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>260c4981879f091008ea0d05dabb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_table_name</field>
+        <id>ae0c4981879f091008ea0d05dabb35d6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>e60c4981879f091008ea0d05dabb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value>{{Created_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_definition</field>
+        <id>ae0c4981879f091008ea0d05dabb35d6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>aa0c4981879f091008ea0d05dabb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_name</field>
+        <id>ae0c4981879f091008ea0d05dabb35d6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>620c4981879f091008ea0d05dabb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0640c7fb973685101f49765e6253afc2</table>
+        <value>DocIntel Task for {{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae0c4981879f091008ea0d05dabb35d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ae0c4981879f091008ea0d05dabb35d6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=da0c4981879f091008ea0d05dabb358f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_da0c4981879f091008ea0d05dabb358f^sys_idNOT IN2a0c4981879f091008ea0d05dabb35c7,9e0c4981879f091008ea0d05dabb35b2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_da0c4981879f091008ea0d05dabb358f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:16</sys_created_on>
+        <sys_id>2a0c4981879f091008ea0d05dabb35c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_da0c4981879f091008ea0d05dabb358f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 17:13:15</sys_created_on>
+        <sys_id>9e0c4981879f091008ea0d05dabb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 17:13:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_da0c4981879f091008ea0d05dabb358f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_da0c4981879f091008ea0d05dabb358f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_da0c4981879f091008ea0d05dabb358f"/>
+    <sys_hub_flow action="update">
+        <sys_id>50617c45871f091008ea0d05dabb3559</sys_id>
+        <latest_snapshot>da0c4981879f091008ea0d05dabb358f</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

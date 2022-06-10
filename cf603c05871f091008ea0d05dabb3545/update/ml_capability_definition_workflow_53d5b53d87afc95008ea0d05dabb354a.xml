@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_workflow">
+    <ml_capability_definition_workflow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Workflow">d12a03f173212010c0bbb63854f6a7b9</capability>
+        <current_solution_version>6</current_solution_version>
+        <dataset_language>en</dataset_language>
+        <description>DocIntel OCR workflow</description>
+        <fields/>
+        <filter/>
+        <request_source>api</request_source>
+        <solution_label>docintel_ocr_workflow_2575313d87afc95008ea0d05dabb3508</solution_label>
+        <solution_name>ml_x_snc_x_snc_employee_i_0_global_docintel_ocr_workflow_2575313d87afc95008ea0d05dabb3508</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"description":"DocIntel OCR workflow","label":"docintel_ocr_workflow_2575313d87afc95008ea0d05dabb3508","predictPipeline":{},"schedulingInfo":{"useCase":"docintel_ocr_workflow","overrideCapability":{"name":"docintel_trainer","version":"21.0"}},"tags":"docintel,ocr,workflow","trainingPipeline":{"pipelineName":"docintel_preprocessing","pipelineInput":{"config":{"detection_model":"fcos-1.1.3","recognition_model":"shi-1.1.3","api_version":"1.1"},"datasets":{"ocr_input":{"tableName":"di_ocr_input","fieldNames":["image","data","chunk_number"],"encodedQuery":"state\u003dassigned^task_definition\u003d2575313d87afc95008ea0d05dabb3508","name":"ocr_input"}}}},"workflowConfiguration":{"trainingFrequency":"run_once"},"workflowLanguageVersion":"1.0.0"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_workflow</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-19 14:27:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53d5b53d87afc95008ea0d05dabb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DocIntel OCR workflow</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>ml_capability_definition_workflow_53d5b53d87afc95008ea0d05dabb354a</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-19 14:27:09</sys_updated_on>
+        <table/>
+        <tags>docintel,ocr,workflow</tags>
+        <training_frequency>run_once</training_frequency>
+        <word_vector_corpus/>
+    </ml_capability_definition_workflow>
+</record_update>

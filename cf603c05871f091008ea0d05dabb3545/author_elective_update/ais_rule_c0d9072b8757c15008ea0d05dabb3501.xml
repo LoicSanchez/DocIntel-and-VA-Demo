@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_rule">
+    <ais_rule action="DELETE">
+        <condition_table>v_ais_result_improvement_rule_condition_builder_values</condition_table>
+        <end_date>2022-06-11</end_date>
+        <expand_synonyms>true</expand_synonyms>
+        <genius_only>false</genius_only>
+        <label>Boost</label>
+        <locale>en</locale>
+        <marked_for_deletion>true</marked_for_deletion>
+        <no_triggers>false</no_triggers>
+        <profile display_value="Service Portal Default Search Profile">bd568e85772300102d71af6168106198</profile>
+        <start_date>2022-05-12</start_date>
+        <state>DRAFT</state>
+        <sys_class_name>ais_rule</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-12 20:51:23</sys_created_on>
+        <sys_id>c0d9072b8757c15008ea0d05dabb3501</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Boost</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>ais_rule_c0d9072b8757c15008ea0d05dabb3501</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-16 20:18:55</sys_updated_on>
+        <trigger table="v_ais_result_improvement_rule_condition_builder_values">queryLIKEbenefits<item endquery="false" field="query" goto="false" newquery="false" operator="LIKE" or="false" value="benefits"/>
+        </trigger>
+    </ais_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</application>
+        <file_path/>
+        <instance_id>fc38034e1bb9051032182f8dee4bcb1f</instance_id>
+        <instance_name>outboundaidemo</instance_name>
+        <name>ais_rule_c0d9072b8757c15008ea0d05dabb3501</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_rule"><ais_rule action="INSERT_OR_UPDATE"><condition_table>v_ais_result_improvement_rule_condition_builder_values</condition_table><end_date>2022-06-11</end_date><expand_synonyms>true</expand_synonyms><genius_only>false</genius_only><label>Boost</label><locale>en</locale><marked_for_deletion>true</marked_for_deletion><no_triggers>false</no_triggers><profile display_value="Service Portal Default Search Profile">bd568e85772300102d71af6168106198</profile><start_date>2022-05-12</start_date><state>DRAFT</state><sys_class_name>ais_rule</sys_class_name><sys_created_by>loic</sys_created_by><sys_created_on>2022-05-12 20:51:23</sys_created_on><sys_id>c0d9072b8757c15008ea0d05dabb3501</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Boost</sys_name><sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package><sys_policy/><sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope><sys_update_name>ais_rule_c0d9072b8757c15008ea0d05dabb3501</sys_update_name><sys_updated_by>loic</sys_updated_by><sys_updated_on>2022-05-16 20:18:55</sys_updated_on><trigger table="v_ais_result_improvement_rule_condition_builder_values">queryLIKEbenefits<item endquery="false" field="query" goto="false" newquery="false" operator="LIKE" or="false" value="benefits"/></trigger></ais_rule></record_update>]]></payload>
+        <payload_hash>-982122420</payload_hash>
+        <record_name>Boost</record_name>
+        <reverted_from/>
+        <source>17603c05871f091008ea0d05dabb3548</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-16 20:18:55</sys_created_on>
+        <sys_id>87996ff487a7095008ea0d05dabb35b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180ce8615a70000001</sys_recorded_at>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-16 20:18:55</sys_updated_on>
+        <type>AI Search Results Improvement Rule</type>
+        <update_guid>cf996ff471a709503213a3925754f7b6</update_guid>
+        <update_guid_history>cf996ff471a709503213a3925754f7b6:-982122420,a9796ff4e9a7095059da9054f9e72148:1377742071,3baa436b6e57c15050395010347b339f:-2061690024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Boost">595aeb3887a7095008ea0d05dabb35f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-16 20:22:05</sys_created_on>
+        <sys_db_object display_value="" name="ais_rule">ais_rule</sys_db_object>
+        <sys_id>07a7b0ec46a74f7f8de3274514714619</sys_id>
+        <sys_metadata>c0d9072b8757c15008ea0d05dabb3501</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Boost</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope_delete display_value="">b1b192a81edd4df480fc6e2a55a62461</sys_scope_delete>
+        <sys_update_name>ais_rule_c0d9072b8757c15008ea0d05dabb3501</sys_update_name>
+        <sys_update_version display_value="ais_rule_c0d9072b8757c15008ea0d05dabb3501">87996ff487a7095008ea0d05dabb35b7</sys_update_version>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-16 20:22:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
