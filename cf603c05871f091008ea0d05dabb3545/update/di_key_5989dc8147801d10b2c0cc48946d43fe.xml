@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="di_key">
+    <di_key action="INSERT_OR_UPDATE">
+        <display_name>State</display_name>
+        <name>state</name>
+        <order>0</order>
+        <sys_class_name>di_key</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:19:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5989dc8147801d10b2c0cc48946d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State</sys_name>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>di_key_5989dc8147801d10b2c0cc48946d43fe</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:19:45</sys_updated_on>
+        <task_definition display_value="Proof of Residency">0735944947401d10b2c0cc48946d43c5</task_definition>
+        <total_used_positive_samples>0</total_used_positive_samples>
+        <type>Text</type>
+    </di_key>
+</record_update>

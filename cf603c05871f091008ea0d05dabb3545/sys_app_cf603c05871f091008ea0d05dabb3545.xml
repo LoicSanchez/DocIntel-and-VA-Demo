@@ -14,7 +14,7 @@
         <license_model>none</license_model>
         <logo>7360f805871f091008ea0d05dabb35f9</logo>
         <menu/>
-        <name>Employee Info with DocIntel</name>
+        <name>DocIntel Demo Employee Info</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -29,9 +29,9 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 15:12:37</sys_created_on>
         <sys_id>cf603c05871f091008ea0d05dabb3545</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 15:12:40</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:16:47</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

@@ -11,12 +11,12 @@
         <copied_from_name>Employee Info Extract Values</copied_from_name>
         <description/>
         <internal_name>employee_info_docintel_ready</internal_name>
-        <label_cache>[{"name":"flow_variable.target_task_sys_id","label":"Flow Variables➛Target task sys id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82cbea05-616c-4e84-980e-990791fd97c0"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"4 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"4 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"5 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"5 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"5 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"2 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"2 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"3 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"3 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"1 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"1 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"1 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"2 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"image":"","label":"Setup","used":false,"rawLabel":"Setup","reference":false,"selected":false,"missing":false,"value":"Setup","parameters":{"name":"di_task"}},{"image":"","label":"New","used":false,"rawLabel":"New","reference":false,"selected":false,"missing":false,"value":"New","parameters":{"name":"di_task"}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","reference":false,"selected":false,"missing":false,"value":"In Progress","parameters":{"name":"di_task"}},{"image":"","label":"Done","used":false,"rawLabel":"Done","reference":false,"selected":false,"missing":false,"value":"Done","parameters":{"name":"di_task"}}]},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Record","label":"4 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Table","label":"4 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Table","label":"4 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Record","label":"4 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"label":"Setup","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Setup","value":"Setup","parameters":{"name":"di_task"}},{"label":"New","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"New","value":"New","parameters":{"name":"di_task"}},{"label":"In Progress","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"In Progress","value":"In Progress","parameters":{"name":"di_task"}},{"label":"Done","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Done","value":"Done","parameters":{"name":"di_task"}}]},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"2 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"1 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"1 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"1 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"3 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"3 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"2 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"2 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"5 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"5 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"5 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"4 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"4 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.target_task_sys_id","label":"Flow Variables➛Target task sys id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82cbea05-616c-4e84-980e-990791fd97c0"}}]</label_cache>
         <master_snapshot>cd05f1d18753891008ea0d05dabb35b1</master_snapshot>
-        <name>Employee Info DocIntel Ready</name>
+        <name>Flow 2 - DocIntel Ready</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>d95f47a68797cd1008ea0d05dabb3593</remote_trigger_id>
+        <remote_trigger_id>c449d88147801d10b2c0cc48946d4309</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,22 +29,22 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0b239dd8713891008ea0d05dabb3539</sys_id>
-        <sys_mod_count>35</sys_mod_count>
-        <sys_name>Employee Info DocIntel Ready</sys_name>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Flow 2 - DocIntel Ready</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name>sys_hub_flow_a0b239dd8713891008ea0d05dabb3539</sys_update_name>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:48</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a0b239dd8713891008ea0d05dabb3539"/>
     <sys_variable_value action="delete_multiple" query="document_key=a0b239dd8713891008ea0d05dabb3539"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="di_task">task_definition.sys_id=43d7b40d871f091008ea0d05dabb359e^is_processedCHANGESTOtrue<item endquery="false" field="task_definition.sys_id" goto="false" newquery="false" operator="=" or="false" value="43d7b40d871f091008ea0d05dabb359e"/>
+        <condition table="di_task">task_definition=0735944947401d10b2c0cc48946d43c5^is_processedCHANGESTOtrue<item display_table="di_task_definition" display_value="Proof of Residency" endquery="false" field="task_definition" goto="false" newquery="false" operator="=" or="false" value="0735944947401d10b2c0cc48946d43c5"/>
             <item endquery="false" field="is_processed" goto="false" newquery="false" operator="CHANGESTO" or="false" value="true"/>
         </condition>
         <name/>
@@ -58,56 +58,56 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-09 18:37:46</sys_created_on>
+        <sys_created_on>2022-06-10 20:18:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d95f47a68797cd1008ea0d05dabb3593</sys_id>
+        <sys_id>c449d88147801d10b2c0cc48946d4309</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:46</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <table>di_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"955f47a68797cd1008ea0d05dabb3594","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"8049d88147801d10b2c0cc48946d430a","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>a0b239dd8713891008ea0d05dabb3539</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-09 18:37:46</sys_created_on>
-        <sys_id>955f47a68797cd1008ea0d05dabb3594</sys_id>
+        <sys_created_on>2022-06-10 20:18:28</sys_created_on>
+        <sys_id>8049d88147801d10b2c0cc48946d430a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
-        <trigger display_value="">d95f47a68797cd1008ea0d05dabb3593</trigger>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
+        <trigger display_value="">c449d88147801d10b2c0cc48946d4309</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>955f47a68797cd1008ea0d05dabb3594</document_id>
+        <document_id>8049d88147801d10b2c0cc48946d430a</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-09 18:37:47</sys_created_on>
-        <sys_id>9d5f47a68797cd1008ea0d05dabb3594</sys_id>
+        <sys_created_on>2022-06-10 20:18:28</sys_created_on>
+        <sys_id>c849d88147801d10b2c0cc48946d430a</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a0b239dd8713891008ea0d05dabb3539^sys_idNOT IN955f47a68797cd1008ea0d05dabb3594"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a0b239dd8713891008ea0d05dabb3539^sys_idNOT IN8049d88147801d10b2c0cc48946d430a"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=a0b239dd8713891008ea0d05dabb3539^sys_idNOT IN42b279dd8713891008ea0d05dabb3512"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:40:45</sys_created_on>
         <sys_id>42b279dd8713891008ea0d05dabb3512</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -136,10 +136,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:40:45</sys_created_on>
         <sys_id>cab279dd8713891008ea0d05dabb3512</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:05:21</sys_updated_on>
-        <value>task_definition.sys_id=43d7b40d871f091008ea0d05dabb359e^is_processedCHANGESTOtrue</value>
+        <sys_updated_on>2022-06-10 20:18:23</sys_updated_on>
+        <value>task_definition=0735944947401d10b2c0cc48946d43c5^is_processedCHANGESTOtrue</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=42b279dd8713891008ea0d05dabb3512"/>
@@ -197,7 +197,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
+        <model display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
         <model_id>a0b239dd8713891008ea0d05dabb3539</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_a0b239dd8713891008ea0d05dabb3539</name>
@@ -220,14 +220,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:40:40</sys_created_on>
         <sys_id>45b239dd8713891008ea0d05dabb3565</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -243,7 +243,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDa45f47a66b97cd1053b1fd4a67a8d801,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7f399881db801d10e89732996abfa342,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -278,7 +278,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
+        <model display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
         <model_id>a0b239dd8713891008ea0d05dabb3539</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_a0b239dd8713891008ea0d05dabb3539</name>
@@ -301,14 +301,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:40:41</sys_created_on>
         <sys_id>c1b239dd8713891008ea0d05dabb3575</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -359,7 +359,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
+        <model display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
         <model_id>a0b239dd8713891008ea0d05dabb3539</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_a0b239dd8713891008ea0d05dabb3539</name>
@@ -382,14 +382,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:40:40</sys_created_on>
         <sys_id>cdb239dd8713891008ea0d05dabb3560</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -412,17 +412,17 @@
         <comment/>
         <compiled_snapshot>4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:40:44</sys_created_on>
         <sys_id>4ab279dd8713891008ea0d05dabb3509</sys_id>
-        <sys_mod_count>88</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:05</sys_updated_on>
+        <sys_mod_count>92</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:18:29</sys_updated_on>
         <ui_id>f712cb0f-7a47-40c5-927d-9b59b4229fb6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4ab279dd8713891008ea0d05dabb3509"/>
@@ -488,17 +488,17 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:09:14</sys_created_on>
         <sys_id>9af602998793891008ea0d05dabb3581</sys_id>
-        <sys_mod_count>48</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:05</sys_updated_on>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:18:29</sys_updated_on>
         <ui_id>f125233a-b464-4d8e-aba0-f4473bc7872d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9af602998793891008ea0d05dabb3581"/>
@@ -553,7 +553,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -567,10 +567,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:17:03</sys_created_on>
         <sys_id>78c8c61d8793891008ea0d05dabb352d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <ui_id>7df8d05e-c65e-47fb-bc09-c8676077914c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -626,7 +626,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>target_task_sys_id</flow_variables_assigned>
@@ -640,10 +640,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:17:02</sys_created_on>
         <sys_id>e4c8c61d8793891008ea0d05dabb351c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <ui_id>bffe24f4-22aa-4e5c-b032-b4cb61f7d999</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -672,7 +672,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -685,10 +685,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:17:03</sys_created_on>
         <sys_id>f0c8c61d8793891008ea0d05dabb3532</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <ui_id>f93f4c12-216a-4bd9-9c1c-72307eba2136</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -738,7 +738,7 @@
         <label>Target task sys id</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
+        <model display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</model>
         <model_id>a0b239dd8713891008ea0d05dabb3539</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_a0b239dd8713891008ea0d05dabb3539</name>
@@ -763,9 +763,9 @@
         <sys_id>d4c8861d8793891008ea0d05dabb35ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Target task sys id</sys_name>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name>sys_hub_flow_variable_d4c8861d8793891008ea0d05dabb35ff</sys_update_name>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 16:17:01</sys_updated_on>
@@ -795,9 +795,9 @@
         <sys_id>05b239dd8713891008ea0d05dabb3574</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 14:40:41</sys_updated_on>
@@ -818,9 +818,9 @@
         <sys_id>81b239dd8713891008ea0d05dabb3578</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 14:40:41</sys_updated_on>
@@ -841,9 +841,9 @@
         <sys_id>85b239dd8713891008ea0d05dabb3564</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 14:40:40</sys_updated_on>
@@ -858,18 +858,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f10535d18753891008ea0d05dabb356f","name":"plan","plan_signature":null}}</plan>
         <plan_id>a0b239dd8713891008ea0d05dabb3539</plan_id>
-        <snapshot>8258df5a47f78110b2c0cc48946d43b0</snapshot>
+        <snapshot>cd05f1d18753891008ea0d05dabb35b1</snapshot>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f10535d18753891008ea0d05dabb356f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
-        <trigger display_value="">d95f47a68797cd1008ea0d05dabb3593</trigger>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
+        <trigger display_value="">c449d88147801d10b2c0cc48946d4309</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a0b239dd8713891008ea0d05dabb3539"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -883,12 +883,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>employee_info_docintel_ready</internal_name>
-        <label_cache>[{"name":"flow_variable.target_task_sys_id","label":"Flow Variables➛Target task sys id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82cbea05-616c-4e84-980e-990791fd97c0"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"4 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"4 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"5 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"5 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"5 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"2 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"2 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"3 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"3 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"1 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"1 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"1 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"2 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"image":"","label":"Setup","used":false,"rawLabel":"Setup","reference":false,"selected":false,"missing":false,"value":"Setup","parameters":{"name":"di_task"}},{"image":"","label":"New","used":false,"rawLabel":"New","reference":false,"selected":false,"missing":false,"value":"New","parameters":{"name":"di_task"}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","reference":false,"selected":false,"missing":false,"value":"In Progress","parameters":{"name":"di_task"}},{"image":"","label":"Done","used":false,"rawLabel":"Done","reference":false,"selected":false,"missing":false,"value":"Done","parameters":{"name":"di_task"}}]},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Record","label":"4 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Table","label":"4 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Table","label":"4 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f125233a-b464-4d8e-aba0-f4473bc7872d.Record","label":"4 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"label":"Setup","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Setup","value":"Setup","parameters":{"name":"di_task"}},{"label":"New","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"New","value":"New","parameters":{"name":"di_task"}},{"label":"In Progress","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"In Progress","value":"In Progress","parameters":{"name":"di_task"}},{"label":"Done","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Done","value":"Done","parameters":{"name":"di_task"}}]},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"2 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"1 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"1 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"1 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"3 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"3 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"2 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"2 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"5 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"5 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"5 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"4 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"4 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.target_task_sys_id","label":"Flow Variables➛Target task sys id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82cbea05-616c-4e84-980e-990791fd97c0"}}]</label_cache>
         <master>true</master>
-        <name>Employee Info DocIntel Ready</name>
+        <name>Flow 2 - DocIntel Ready</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Employee Info DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</parent_flow>
+        <parent_flow display_value="Flow 2 - DocIntel Ready">a0b239dd8713891008ea0d05dabb3539</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -900,15 +900,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd05f1d18753891008ea0d05dabb35b1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=cd05f1d18753891008ea0d05dabb35b1"/>
@@ -917,16 +917,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:48</sys_created_on>
         <sys_id>650535d18753891008ea0d05dabb351f</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:47</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:28</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -955,10 +955,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:48</sys_created_on>
         <sys_id>a90535d18753891008ea0d05dabb3520</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:05:25</sys_updated_on>
-        <value>task_definition.sys_id=43d7b40d871f091008ea0d05dabb359e^is_processedCHANGESTOtrue</value>
+        <sys_updated_on>2022-06-10 20:18:26</sys_updated_on>
+        <value>task_definition=0735944947401d10b2c0cc48946d43c5^is_processedCHANGESTOtrue</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=650535d18753891008ea0d05dabb351f"/>
@@ -1016,7 +1016,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
+        <model display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
         <model_id>cd05f1d18753891008ea0d05dabb35b1</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_cd05f1d18753891008ea0d05dabb35b1</name>
@@ -1039,14 +1039,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:48</sys_created_on>
         <sys_id>1905f1d18753891008ea0d05dabb35d8</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:44</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1062,7 +1062,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDa45f47a66b97cd1053b1fd4a67a8d801,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7f399881db801d10e89732996abfa342,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1097,7 +1097,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
+        <model display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
         <model_id>cd05f1d18753891008ea0d05dabb35b1</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_cd05f1d18753891008ea0d05dabb35b1</name>
@@ -1120,14 +1120,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:47</sys_created_on>
         <sys_id>5905f1d18753891008ea0d05dabb35c3</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1178,7 +1178,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
+        <model display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
         <model_id>cd05f1d18753891008ea0d05dabb35b1</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_cd05f1d18753891008ea0d05dabb35b1</name>
@@ -1201,14 +1201,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:47</sys_created_on>
         <sys_id>8905f1d18753891008ea0d05dabb35b5</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:44</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1231,17 +1231,17 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:09:19</sys_created_on>
         <sys_id>23f642998793891008ea0d05dabb3555</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:27</sys_updated_on>
         <ui_id>f125233a-b464-4d8e-aba0-f4473bc7872d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=23f642998793891008ea0d05dabb3555"/>
@@ -1294,17 +1294,17 @@
         <comment/>
         <compiled_snapshot>4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:50:48</sys_created_on>
         <sys_id>a90535d18753891008ea0d05dabb351d</sys_id>
-        <sys_mod_count>50</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:27</sys_updated_on>
         <ui_id>f712cb0f-7a47-40c5-927d-9b59b4229fb6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a90535d18753891008ea0d05dabb351d"/>
@@ -1372,7 +1372,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1385,10 +1385,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:17:07</sys_created_on>
         <sys_id>75c80a1d8793891008ea0d05dabb3513</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:27</sys_updated_on>
         <ui_id>f93f4c12-216a-4bd9-9c1c-72307eba2136</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1405,7 +1405,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>target_task_sys_id</flow_variables_assigned>
@@ -1419,10 +1419,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:17:07</sys_created_on>
         <sys_id>b5c80a1d8793891008ea0d05dabb350b</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:26</sys_updated_on>
         <ui_id>bffe24f4-22aa-4e5c-b032-b4cb61f7d999</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1451,7 +1451,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
+        <flow display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1465,10 +1465,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 16:17:07</sys_created_on>
         <sys_id>b5c80a1d8793891008ea0d05dabb350f</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-09 18:37:45</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:18:27</sys_updated_on>
         <ui_id>7df8d05e-c65e-47fb-bc09-c8676077914c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1557,7 +1557,7 @@
         <label>Target task sys id</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Employee Info DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
+        <model display_value="Flow 2 - DocIntel Ready">cd05f1d18753891008ea0d05dabb35b1</model>
         <model_id>cd05f1d18753891008ea0d05dabb35b1</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_cd05f1d18753891008ea0d05dabb35b1</name>
@@ -1582,9 +1582,9 @@
         <sys_id>e5c8c61d8793891008ea0d05dabb35e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Target task sys id</sys_name>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name>sys_hub_flow_variable_e5c8c61d8793891008ea0d05dabb35e7</sys_update_name>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 16:17:06</sys_updated_on>
@@ -1614,9 +1614,9 @@
         <sys_id>1105f1d18753891008ea0d05dabb35c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 14:50:47</sys_updated_on>
@@ -1637,9 +1637,9 @@
         <sys_id>d105f1d18753891008ea0d05dabb35dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 14:50:48</sys_updated_on>
@@ -1660,9 +1660,9 @@
         <sys_id>dd05f1d18753891008ea0d05dabb35d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-05 14:50:48</sys_updated_on>

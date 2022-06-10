@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="di_task_definition">
+    <di_task_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill>true</autofill>
+        <display_name>Proof of Residency</display_name>
+        <ml_definition_ocr/>
+        <ml_definition_pdf_preprocessing/>
+        <ml_definition_prediction/>
+        <ml_definition_training/>
+        <mluc_id/>
+        <source_record/>
+        <source_table_name/>
+        <sys_class_name>di_task_definition</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:02:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0735944947401d10b2c0cc48946d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Proof of Residency</sys_name>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>di_task_definition_0735944947401d10b2c0cc48946d43c5</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:02:55</sys_updated_on>
+        <warning_threshold>0.7</warning_threshold>
+        <workflow_solutions_names_initialized>false</workflow_solutions_names_initialized>
+    </di_task_definition>
+</record_update>

@@ -11,12 +11,12 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>employee_info_extract_values</internal_name>
-        <label_cache>[{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"6 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"6 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"5 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"5 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"5 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"3 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"3 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"4 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"4 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"2 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"2 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"2 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"3 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"image":"","label":"Setup","used":false,"rawLabel":"Setup","reference":false,"selected":false,"missing":false,"value":"Setup","parameters":{"name":"di_task"}},{"image":"","label":"New","used":false,"rawLabel":"New","reference":false,"selected":false,"missing":false,"value":"New","parameters":{"name":"di_task"}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","reference":false,"selected":false,"missing":false,"value":"In Progress","parameters":{"name":"di_task"}},{"image":"","label":"Done","used":false,"rawLabel":"Done","reference":false,"selected":false,"missing":false,"value":"Done","parameters":{"name":"di_task"}}]}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"label":"Setup","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Setup","value":"Setup","parameters":{"name":"di_task"}},{"label":"New","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"New","value":"New","parameters":{"name":"di_task"}},{"label":"In Progress","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"In Progress","value":"In Progress","parameters":{"name":"di_task"}},{"label":"Done","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Done","value":"Done","parameters":{"name":"di_task"}}]},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"6 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"5 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"5 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"5 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"5 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"5 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"5 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"5 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"4 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"4 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"6 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"6 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"6 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"6 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"6 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"6 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"8 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"8 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"8 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"9 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"9 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.task_sys_id","label":"Flow Variables➛Task Sys Id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"885a843c-49f9-4c41-b6e7-65d91e3413a8"}},{"name":"8b69f1c7-c9df-4210-8303-59cf29e25ad3.__action_status__","label":"7 - Extract and Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD22881441e0801d1021a1e8efd27c5173","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"8b69f1c7-c9df-4210-8303-59cf29e25ad3.__dont_treat_as_error__","label":"7 - Extract and Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}}]</label_cache>
         <master_snapshot>1fac19c587df091008ea0d05dabb3538</master_snapshot>
-        <name>Employee Info Extract Values</name>
+        <name>Flow 3 - Extract and Set Values</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>8d2dc69187d3891008ea0d05dabb35f2</remote_trigger_id>
+        <remote_trigger_id>9d6a900547801d10b2c0cc48946d4358</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,23 +29,23 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>761901cd875f091008ea0d05dabb3533</sys_id>
-        <sys_mod_count>22</sys_mod_count>
-        <sys_name>Employee Info Extract Values</sys_name>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Flow 3 - Extract and Set Values</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name>sys_hub_flow_761901cd875f091008ea0d05dabb3533</sys_update_name>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:12</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=761901cd875f091008ea0d05dabb3533"/>
     <sys_variable_value action="delete_multiple" query="document_key=761901cd875f091008ea0d05dabb3533"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="di_task">status=Done^task_definition.sys_id=43d7b40d871f091008ea0d05dabb359e<item display_value="Done" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Done"/>
-            <item endquery="false" field="task_definition.sys_id" goto="false" newquery="false" operator="=" or="false" value="43d7b40d871f091008ea0d05dabb359e"/>
+        <condition table="di_task">status=Done^task_definition=0735944947401d10b2c0cc48946d43c5<item display_value="Done" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Done"/>
+            <item display_table="di_task_definition" display_value="Proof of Residency" endquery="false" field="task_definition" goto="false" newquery="false" operator="=" or="false" value="0735944947401d10b2c0cc48946d43c5"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -58,56 +58,56 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-05 16:36:11</sys_created_on>
+        <sys_created_on>2022-06-10 20:23:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8d2dc69187d3891008ea0d05dabb35f2</sys_id>
+        <sys_id>9d6a900547801d10b2c0cc48946d4358</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <table>di_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"492dc69187d3891008ea0d05dabb35f3","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"596a900547801d10b2c0cc48946d4359","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>761901cd875f091008ea0d05dabb3533</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-05 16:36:11</sys_created_on>
-        <sys_id>492dc69187d3891008ea0d05dabb35f3</sys_id>
+        <sys_created_on>2022-06-10 20:23:28</sys_created_on>
+        <sys_id>596a900547801d10b2c0cc48946d4359</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
-        <trigger display_value="">8d2dc69187d3891008ea0d05dabb35f2</trigger>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
+        <trigger display_value="">9d6a900547801d10b2c0cc48946d4358</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>492dc69187d3891008ea0d05dabb35f3</document_id>
+        <document_id>596a900547801d10b2c0cc48946d4359</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-05 16:36:11</sys_created_on>
-        <sys_id>412dc69187d3891008ea0d05dabb35f4</sys_id>
+        <sys_created_on>2022-06-10 20:23:28</sys_created_on>
+        <sys_id>516a900547801d10b2c0cc48946d435a</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=761901cd875f091008ea0d05dabb3533^sys_idNOT IN492dc69187d3891008ea0d05dabb35f3"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=761901cd875f091008ea0d05dabb3533^sys_idNOT IN596a900547801d10b2c0cc48946d4359"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=761901cd875f091008ea0d05dabb3533^sys_idNOT INf4aa8d01879f091008ea0d05dabb35bd"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 17:07:08</sys_created_on>
         <sys_id>f4aa8d01879f091008ea0d05dabb35bd</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:12</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -136,10 +136,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 17:07:08</sys_created_on>
         <sys_id>b8aa8d01879f091008ea0d05dabb35be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 17:07:08</sys_updated_on>
-        <value>status=Done^task_definition.sys_id=43d7b40d871f091008ea0d05dabb359e</value>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
+        <value>status=Done^task_definition=0735944947401d10b2c0cc48946d43c5</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=f4aa8d01879f091008ea0d05dabb35bd"/>
@@ -197,7 +197,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</model>
+        <model display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</model>
         <model_id>761901cd875f091008ea0d05dabb3533</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_761901cd875f091008ea0d05dabb3533</name>
@@ -220,14 +220,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 17:07:08</sys_created_on>
         <sys_id>20aa8d01879f091008ea0d05dabb35b8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -278,7 +278,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</model>
+        <model display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</model>
         <model_id>761901cd875f091008ea0d05dabb3533</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_761901cd875f091008ea0d05dabb3533</name>
@@ -301,14 +301,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 17:07:07</sys_created_on>
         <sys_id>acaa8d01879f091008ea0d05dabb3516</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -324,7 +324,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd42dc6916fd38910a505572a945d4e40,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD6c6a500555801d1078bb557a2bac5c3a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -359,7 +359,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</model>
+        <model display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</model>
         <model_id>761901cd875f091008ea0d05dabb3533</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_761901cd875f091008ea0d05dabb3533</name>
@@ -382,14 +382,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 17:07:08</sys_created_on>
         <sys_id>acaa8d01879f091008ea0d05dabb351e</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -403,7 +403,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=761901cd875f091008ea0d05dabb3533"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=761901cd875f091008ea0d05dabb3533"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=761901cd875f091008ea0d05dabb3533^sys_idNOT IN8a1031d98713891008ea0d05dabb353e,8a1031d98713891008ea0d05dabb3545,9669d1c187df091008ea0d05dabb356a,9669d1c187df091008ea0d05dabb358c,ae69d1c187df091008ea0d05dabb3594"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=761901cd875f091008ea0d05dabb3533^sys_idNOT IN8a1031d98713891008ea0d05dabb353e,8a1031d98713891008ea0d05dabb3545,9669d1c187df091008ea0d05dabb356a,9669d1c187df091008ea0d05dabb358c,e35adcc147801d10b2c0cc48946d43f0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -412,17 +412,17 @@
         <comment/>
         <compiled_snapshot>4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
-        <order>5</order>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:29:16</sys_created_on>
         <sys_id>8a1031d98713891008ea0d05dabb353e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:55</sys_updated_on>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <ui_id>f712cb0f-7a47-40c5-927d-9b59b4229fb6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a1031d98713891008ea0d05dabb353e"/>
@@ -475,17 +475,17 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
-        <order>6</order>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:29:17</sys_created_on>
         <sys_id>8a1031d98713891008ea0d05dabb3545</sys_id>
-        <sys_mod_count>32</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:55</sys_updated_on>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:29</sys_updated_on>
         <ui_id>c86beda8-6c74-4abf-b1bd-200c6e7292fd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a1031d98713891008ea0d05dabb3545"/>
@@ -564,17 +564,17 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
-        <order>2</order>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:11:42</sys_created_on>
         <sys_id>9669d1c187df091008ea0d05dabb356a</sys_id>
-        <sys_mod_count>54</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:55</sys_updated_on>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <ui_id>a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9669d1c187df091008ea0d05dabb356a"/>
@@ -599,11 +599,11 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:11:42</sys_created_on>
         <sys_id>5e69d1c187df091008ea0d05dabb356b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:11:42</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
-        <value>sys_id={{Updated_1.current.source_record}}</value>
+        <value>sys_id={{flow_variable.task_sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -627,17 +627,17 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
-        <order>3</order>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <order>6</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:11:42</sys_created_on>
         <sys_id>9669d1c187df091008ea0d05dabb358c</sys_id>
-        <sys_mod_count>54</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:55</sys_updated_on>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <ui_id>212cf0bb-bdef-4ff9-9a58-9006400b4576</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9669d1c187df091008ea0d05dabb358c"/>
@@ -685,90 +685,78 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="DocIntel Set Target Field Values">66cf433b977685101f49765e6253afc1</action_type>
+        <action_type display_value="Extract and Set Target Field Values">0688d04147801d10b2c0cc48946d43a3</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot>66cf433b977685101f49765e6253afc1</compiled_snapshot>
+        <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
-        <order>4</order>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <order>7</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:11:42</sys_created_on>
-        <sys_id>ae69d1c187df091008ea0d05dabb3594</sys_id>
-        <sys_mod_count>54</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:55</sys_updated_on>
-        <ui_id>d9abe7d6-2fe9-4741-bf73-8242c6319df9</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ae69d1c187df091008ea0d05dabb3594"/>
-    <sys_element_mapping action="delete_multiple" query="id=ae69d1c187df091008ea0d05dabb3594"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>extracted_values</field>
-        <id>ae69d1c187df091008ea0d05dabb3594</id>
-        <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:11:42</sys_created_on>
-        <sys_id>e269d1c187df091008ea0d05dabb3596</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-06-10 20:23:21</sys_created_on>
+        <sys_id>e35adcc147801d10b2c0cc48946d43f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 14:18:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
-        <value/>
-    </sys_element_mapping>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
+        <ui_id>8b69f1c7-c9df-4210-8303-59cf29e25ad3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e35adcc147801d10b2c0cc48946d43f0"/>
+    <sys_element_mapping action="delete_multiple" query="id=e35adcc147801d10b2c0cc48946d43f0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>target_field_map</field>
-        <id>ae69d1c187df091008ea0d05dabb3594</id>
+        <id>e35adcc147801d10b2c0cc48946d43f0</id>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:11:42</sys_created_on>
-        <sys_id>6a69d1c187df091008ea0d05dabb3596</sys_id>
+        <sys_created_on>2022-06-10 20:23:21</sys_created_on>
+        <sys_id>e75adcc147801d10b2c0cc48946d43f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:11:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
+        <sys_updated_on>2022-06-10 20:23:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
         <value>{{flow_variable.target_map}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>target_record_sysid</field>
-        <id>ae69d1c187df091008ea0d05dabb3594</id>
+        <id>e35adcc147801d10b2c0cc48946d43f0</id>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:11:42</sys_created_on>
-        <sys_id>ee69d1c187df091008ea0d05dabb3596</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-06-10 20:23:21</sys_created_on>
+        <sys_id>6f5adcc147801d10b2c0cc48946d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 13:48:04</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
+        <sys_updated_on>2022-06-10 20:23:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
         <value>{{212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>target_table_name</field>
-        <id>ae69d1c187df091008ea0d05dabb3594</id>
+        <id>e35adcc147801d10b2c0cc48946d43f0</id>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:11:42</sys_created_on>
-        <sys_id>2e69d1c187df091008ea0d05dabb3596</sys_id>
+        <sys_created_on>2022-06-10 20:23:21</sys_created_on>
+        <sys_id>ab5adcc147801d10b2c0cc48946d43f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:11:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
+        <sys_updated_on>2022-06-10 20:23:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
         <value>{{212cf0bb-bdef-4ff9-9a58-9006400b4576.Table}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_id</field>
-        <id>ae69d1c187df091008ea0d05dabb3594</id>
+        <id>e35adcc147801d10b2c0cc48946d43f0</id>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:11:42</sys_created_on>
-        <sys_id>a669d1c187df091008ea0d05dabb3596</sys_id>
+        <sys_created_on>2022-06-10 20:23:21</sys_created_on>
+        <sys_id>275adcc147801d10b2c0cc48946d43f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:11:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
+        <sys_updated_on>2022-06-10 20:23:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
         <value>{{Updated_1.current.sys_id}}</value>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ae69d1c187df091008ea0d05dabb3594"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ae69d1c187df091008ea0d05dabb3594"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e35adcc147801d10b2c0cc48946d43f0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e35adcc147801d10b2c0cc48946d43f0"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=761901cd875f091008ea0d05dabb3533"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=761901cd875f091008ea0d05dabb3533^sys_idNOT IN38aa8d01879f091008ea0d05dabb35d3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=761901cd875f091008ea0d05dabb3533^sys_idNOT IN38aa8d01879f091008ea0d05dabb35d3,a35adcc147801d10b2c0cc48946d43be,af5adcc147801d10b2c0cc48946d43b5,eb5adcc147801d10b2c0cc48946d43b9"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b8aa8d01879f091008ea0d05dabb35d2</block>
         <comment/>
@@ -777,7 +765,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</flow>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
         <flow_variable/>
         <flow_variables_assigned>target_map</flow_variables_assigned>
         <inputs/>
@@ -790,10 +778,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 17:07:08</sys_created_on>
         <sys_id>38aa8d01879f091008ea0d05dabb35d3</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:12</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <ui_id>4267cce3-d99e-451f-97c3-f54399896a9e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -816,8 +804,241 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_761901cd875f091008ea0d05dabb3533^id=38aa8d01879f091008ea0d05dabb35d3"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=38aa8d01879f091008ea0d05dabb35d3"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=38aa8d01879f091008ea0d05dabb35d3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f5adcc147801d10b2c0cc48946d43bd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0c37e38f-ee9d-4c15-86c1-19eb2039e6d7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>a35adcc147801d10b2c0cc48946d43be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
+        <ui_id>6fb21ef3-6369-47a3-923e-ceb25e25c646</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a35adcc147801d10b2c0cc48946d43be"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_761901cd875f091008ea0d05dabb3533^id=a35adcc147801d10b2c0cc48946d43be"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a35adcc147801d10b2c0cc48946d43be"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a35adcc147801d10b2c0cc48946d43be"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e35adcc147801d10b2c0cc48946d43b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>task_sys_id</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>af5adcc147801d10b2c0cc48946d43b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
+        <ui_id>282f930d-39a9-4a07-bd15-acf132b5b816</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=af5adcc147801d10b2c0cc48946d43b5"/>
+    <sys_element_mapping action="delete_multiple" query="id=af5adcc147801d10b2c0cc48946d43b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_sys_id</field>
+        <id>af5adcc147801d10b2c0cc48946d43b5</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>ab5adcc147801d10b2c0cc48946d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_761901cd875f091008ea0d05dabb3533</table>
+        <value>{{Updated_1.current.source_record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=af5adcc147801d10b2c0cc48946d43b5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=af5adcc147801d10b2c0cc48946d43b5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">675adcc147801d10b2c0cc48946d43b9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>eb5adcc147801d10b2c0cc48946d43b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
+        <ui_id>0c37e38f-ee9d-4c15-86c1-19eb2039e6d7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eb5adcc147801d10b2c0cc48946d43b9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eb5adcc147801d10b2c0cc48946d43b9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>635adcc147801d10b2c0cc48946d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
+        <value>Sys Id is empty</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_761901cd875f091008ea0d05dabb3533^id=eb5adcc147801d10b2c0cc48946d43b9"/>
+    <sys_element_mapping action="delete_multiple" query="id=eb5adcc147801d10b2c0cc48946d43b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>eb5adcc147801d10b2c0cc48946d43b9</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>ef5adcc147801d10b2c0cc48946d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{flow_variable.task_sys_id}}=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>eb5adcc147801d10b2c0cc48946d43b9</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>2f5adcc147801d10b2c0cc48946d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eb5adcc147801d10b2c0cc48946d43b9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb5adcc147801d10b2c0cc48946d43b9"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=761901cd875f091008ea0d05dabb3533"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=761901cd875f091008ea0d05dabb3533^sys_idNOT INf8aa8d01879f091008ea0d05dabb35c0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=761901cd875f091008ea0d05dabb3533^sys_idNOT INdf5adcc147801d10b2c0cc48946d4391,f8aa8d01879f091008ea0d05dabb35c0"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=885a843c-49f9-4c41-b6e7-65d91e3413a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Task Sys Id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</model>
+        <model_id>761901cd875f091008ea0d05dabb3533</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_761901cd875f091008ea0d05dabb3533</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:20</sys_created_on>
+        <sys_id>df5adcc147801d10b2c0cc48946d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Sys Id</sys_name>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_df5adcc147801d10b2c0cc48946d4391</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -857,7 +1078,7 @@
         <label>Target Map</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</model>
+        <model display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</model>
         <model_id>761901cd875f091008ea0d05dabb3533</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_761901cd875f091008ea0d05dabb3533</name>
@@ -882,9 +1103,9 @@
         <sys_id>f8aa8d01879f091008ea0d05dabb35c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Target Map</sys_name>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name>sys_hub_flow_variable_f8aa8d01879f091008ea0d05dabb35c0</sys_update_name>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 17:07:08</sys_updated_on>
@@ -914,9 +1135,9 @@
         <sys_id>68aa8d01879f091008ea0d05dabb351d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 17:07:08</sys_updated_on>
@@ -937,9 +1158,9 @@
         <sys_id>6caa8d01879f091008ea0d05dabb3521</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 17:07:08</sys_updated_on>
@@ -960,9 +1181,9 @@
         <sys_id>b8aa8d01879f091008ea0d05dabb35ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 17:07:08</sys_updated_on>
@@ -977,18 +1198,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6cbc59c587df091008ea0d05dabb3556","name":"plan","plan_signature":null}}</plan>
         <plan_id>761901cd875f091008ea0d05dabb3533</plan_id>
-        <snapshot>75885b1a87bf811008ea0d05dabb35d5</snapshot>
+        <snapshot>1fac19c587df091008ea0d05dabb3538</snapshot>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:26:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6cbc59c587df091008ea0d05dabb3556</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
-        <trigger display_value="">8d2dc69187d3891008ea0d05dabb35f2</trigger>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
+        <trigger display_value="">9d6a900547801d10b2c0cc48946d4358</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=761901cd875f091008ea0d05dabb3533"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1002,12 +1223,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>employee_info_extract_values</internal_name>
-        <label_cache>[{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"6 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"6 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"5 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"5 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"5 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"3 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"3 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"4 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"4 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"2 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"2 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"2 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"3 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"image":"","label":"Setup","used":false,"rawLabel":"Setup","reference":false,"selected":false,"missing":false,"value":"Setup","parameters":{"name":"di_task"}},{"image":"","label":"New","used":false,"rawLabel":"New","reference":false,"selected":false,"missing":false,"value":"New","parameters":{"name":"di_task"}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","reference":false,"selected":false,"missing":false,"value":"In Progress","parameters":{"name":"di_task"}},{"image":"","label":"Done","used":false,"rawLabel":"Done","reference":false,"selected":false,"missing":false,"value":"Done","parameters":{"name":"di_task"}}]}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.status","label":"Trigger - Record Updated➛Task Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"di_task","column_name":"status","choices":[{"label":"Setup","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Setup","value":"Setup","parameters":{"name":"di_task"}},{"label":"New","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"New","value":"New","parameters":{"name":"di_task"}},{"label":"In Progress","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"In Progress","value":"In Progress","parameters":{"name":"di_task"}},{"label":"Done","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Done","value":"Done","parameters":{"name":"di_task"}}]},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"facedd2e-e1c6-4f5a-8fa5-55b3b20677c3.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id","label":"6 - Look Up Record➛HR Profile Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_profile","column_name":"sys_id"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record.opened_by","label":"5 - Look Up Record➛Employee Info Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_i_0_employee_info_task","column_name":"opened_by"},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__dont_treat_as_error__","label":"5 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.__action_status__","label":"5 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.error_message","label":"5 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.status","label":"5 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Table","label":"5 - Look Up Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3.Record","label":"5 - Look Up Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.source_record","label":"Trigger - Record Updated➛Task Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"di_task","column_name":"source_record"},{"name":"flow_variable.target_map","label":"Flow Variables➛Target Map","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"581d812a-2fcf-4772-9387-639594de0fc9"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__dont_treat_as_error__","label":"4 - DocIntel Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}},{"name":"d9abe7d6-2fe9-4741-bf73-8242c6319df9.__action_status__","label":"4 - DocIntel Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDece225d91fdf4910a5d67a59bc817b0d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"Updated_1.current.source_table","label":"Trigger - Record Updated➛Task Record➛Source Table","reference":"","reference_display":"Source Table","type":"table_name","base_type":"table_name","parent_table_name":"di_task","column_name":"source_table"},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Table","label":"3 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01436af2-1776-41d5-9edc-f702a9dce30d.Record","label":"3 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__dont_treat_as_error__","label":"6 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.__action_status__","label":"6 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.error_message","label":"6 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.status","label":"6 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Table","label":"6 - Look Up Record➛HR Profile Table","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212cf0bb-bdef-4ff9-9a58-9006400b4576.Record","label":"6 - Look Up Record➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__action_status__","label":"2 - DocIntel Extract Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD9fc40bffb4368510bab1d9222d475866","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"901d680a-d551-4452-9ef6-1c3ab2885123"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.__dont_treat_as_error__","label":"2 - DocIntel Extract Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"3a683782-5afa-4222-9855-d07ea93af812"}},{"name":"0d930a2b-b9f9-433d-884c-91bf5aa89a79.extracted_values","label":"2 - DocIntel Extract Values➛Extracted Values","reference_display":"Extracted Values","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98ce04e5-e07c-4561-9c5b-3bd5903c5e0d"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"di_task","column_name":"sys_id"},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.Task","label":"4 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__action_status__","label":"4 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca9acba3-87d3-437b-be69-d7671853f3b8.__dont_treat_as_error__","label":"4 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.Task","label":"6 - Add Comment To Task➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__action_status__","label":"6 - Add Comment To Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a461e682-e4e5-4da5-a192-643ad915fbe8.__dont_treat_as_error__","label":"6 - Add Comment To Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.task","label":"3 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__action_status__","label":"3 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7108dd0e-60e1-4d01-a55e-b816e86e5cd0.__dont_treat_as_error__","label":"3 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.task","label":"8 - Add Worknote➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__action_status__","label":"8 - Add Worknote➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f712cb0f-7a47-40c5-927d-9b59b4229fb6.__dont_treat_as_error__","label":"8 - Add Worknote➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.record","label":"9 - Update Record➛Employee Info Task Record","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.table_name","label":"9 - Update Record➛Employee Info Task Table","reference":"x_snc_employee_i_0_employee_info_task","reference_display":"Employee Info Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c86beda8-6c74-4abf-b1bd-200c6e7292fd.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.task_sys_id","label":"Flow Variables➛Task Sys Id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"885a843c-49f9-4c41-b6e7-65d91e3413a8"}},{"name":"8b69f1c7-c9df-4210-8303-59cf29e25ad3.__action_status__","label":"7 - Extract and Set Target Field Values➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD22881441e0801d1021a1e8efd27c5173","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"b801cf1e-f2c7-4508-a1e5-d3932fe13c4c"}},{"name":"8b69f1c7-c9df-4210-8303-59cf29e25ad3.__dont_treat_as_error__","label":"7 - Extract and Set Target Field Values➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"106b0656-8f0a-420e-9394-b6e206477190"}}]</label_cache>
         <master>true</master>
-        <name>Employee Info Extract Values</name>
+        <name>Flow 3 - Extract and Set Values</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Employee Info Extract Values">761901cd875f091008ea0d05dabb3533</parent_flow>
+        <parent_flow display_value="Flow 3 - Extract and Set Values">761901cd875f091008ea0d05dabb3533</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -1019,15 +1240,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1fac19c587df091008ea0d05dabb3538</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:26</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=1fac19c587df091008ea0d05dabb3538"/>
@@ -1036,16 +1257,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:26:00</sys_created_on>
         <sys_id>b7ac19c587df091008ea0d05dabb35d6</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:11</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:28</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1074,10 +1295,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:26:00</sys_created_on>
         <sys_id>ffac19c587df091008ea0d05dabb35d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:26:00</sys_updated_on>
-        <value>status=Done^task_definition.sys_id=43d7b40d871f091008ea0d05dabb359e</value>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
+        <value>status=Done^task_definition=0735944947401d10b2c0cc48946d43c5</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=b7ac19c587df091008ea0d05dabb35d6"/>
@@ -1100,7 +1321,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd42dc6916fd38910a505572a945d4e40,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD6c6a500555801d1078bb557a2bac5c3a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1135,7 +1356,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</model>
+        <model display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</model>
         <model_id>1fac19c587df091008ea0d05dabb3538</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1fac19c587df091008ea0d05dabb3538</name>
@@ -1158,14 +1379,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:58</sys_created_on>
         <sys_id>67ac19c587df091008ea0d05dabb354e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1216,7 +1437,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</model>
+        <model display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</model>
         <model_id>1fac19c587df091008ea0d05dabb3538</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1fac19c587df091008ea0d05dabb3538</name>
@@ -1239,14 +1460,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:58</sys_created_on>
         <sys_id>6fac19c587df091008ea0d05dabb3556</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1297,7 +1518,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</model>
+        <model display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</model>
         <model_id>1fac19c587df091008ea0d05dabb3538</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1fac19c587df091008ea0d05dabb3538</name>
@@ -1320,14 +1541,14 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:58</sys_created_on>
         <sys_id>93ac19c587df091008ea0d05dabb353d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1341,7 +1562,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=1fac19c587df091008ea0d05dabb3538"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fac19c587df091008ea0d05dabb3538"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=1fac19c587df091008ea0d05dabb3538^sys_idNOT IN3fac19c587df091008ea0d05dabb35b2,ab1071d98713891008ea0d05dabb3580,af1071d98713891008ea0d05dabb3579,bbac19c587df091008ea0d05dabb35c3,bfac19c587df091008ea0d05dabb35cd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1fac19c587df091008ea0d05dabb3538^sys_idNOT IN3fac19c587df091008ea0d05dabb35b2,a86a100547801d10b2c0cc48946d43e6,ab1071d98713891008ea0d05dabb3580,af1071d98713891008ea0d05dabb3579,bbac19c587df091008ea0d05dabb35c3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1350,17 +1571,17 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
-        <order>2</order>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:59</sys_created_on>
         <sys_id>3fac19c587df091008ea0d05dabb35b2</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <ui_id>a9ba2c8d-c7b1-4186-b3f4-cf23682e38e3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3fac19c587df091008ea0d05dabb35b2"/>
@@ -1385,11 +1606,11 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:59</sys_created_on>
         <sys_id>f7ac19c587df091008ea0d05dabb35b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:25:59</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
-        <value>sys_id={{Updated_1.current.source_record}}</value>
+        <value>sys_id={{flow_variable.task_sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1408,22 +1629,95 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Extract and Set Target Field Values">0688d04147801d10b2c0cc48946d43a3</action_type>
+        <action_type_parent display_value="Extract and Set Target Field Values">72d5cbb4470cd910b2c0cc48946d4341</action_type_parent>
+        <comment/>
+        <compiled_snapshot>0688d04147801d10b2c0cc48946d43a3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:24</sys_created_on>
+        <sys_id>a86a100547801d10b2c0cc48946d43e6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <ui_id>8b69f1c7-c9df-4210-8303-59cf29e25ad3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a86a100547801d10b2c0cc48946d43e6"/>
+    <sys_element_mapping action="delete_multiple" query="id=a86a100547801d10b2c0cc48946d43e6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_field_map</field>
+        <id>a86a100547801d10b2c0cc48946d43e6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:24</sys_created_on>
+        <sys_id>a06a100547801d10b2c0cc48946d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
+        <value>{{flow_variable.target_map}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record_sysid</field>
+        <id>a86a100547801d10b2c0cc48946d43e6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:24</sys_created_on>
+        <sys_id>286a100547801d10b2c0cc48946d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
+        <value>{{212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_table_name</field>
+        <id>a86a100547801d10b2c0cc48946d43e6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:24</sys_created_on>
+        <sys_id>646a100547801d10b2c0cc48946d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
+        <value>{{212cf0bb-bdef-4ff9-9a58-9006400b4576.Table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_id</field>
+        <id>a86a100547801d10b2c0cc48946d43e6</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:24</sys_created_on>
+        <sys_id>ec6a100547801d10b2c0cc48946d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0688d04147801d10b2c0cc48946d43a3</table>
+        <value>{{Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a86a100547801d10b2c0cc48946d43e6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a86a100547801d10b2c0cc48946d43e6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
-        <order>6</order>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:29:23</sys_created_on>
         <sys_id>ab1071d98713891008ea0d05dabb3580</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <ui_id>c86beda8-6c74-4abf-b1bd-200c6e7292fd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab1071d98713891008ea0d05dabb3580"/>
@@ -1502,17 +1796,17 @@
         <comment/>
         <compiled_snapshot>4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
-        <order>5</order>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-05 14:29:23</sys_created_on>
         <sys_id>af1071d98713891008ea0d05dabb3579</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <ui_id>f712cb0f-7a47-40c5-927d-9b59b4229fb6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=af1071d98713891008ea0d05dabb3579"/>
@@ -1565,17 +1859,17 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
-        <order>3</order>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <order>6</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:59</sys_created_on>
         <sys_id>bbac19c587df091008ea0d05dabb35c3</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <ui_id>212cf0bb-bdef-4ff9-9a58-9006400b4576</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bbac19c587df091008ea0d05dabb35c3"/>
@@ -1620,93 +1914,160 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bbac19c587df091008ea0d05dabb35c3"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bbac19c587df091008ea0d05dabb35c3"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="DocIntel Set Target Field Values">66cf433b977685101f49765e6253afc1</action_type>
-        <action_type_parent display_value="DocIntel Set Target Field Values">014cc777977685101f49765e6253af22</action_type_parent>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1fac19c587df091008ea0d05dabb3538"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1fac19c587df091008ea0d05dabb3538^sys_idNOT IN206a500547801d10b2c0cc48946d4338,246a500547801d10b2c0cc48946d430b,2c6a500547801d10b2c0cc48946d430e,ebac19c587df091008ea0d05dabb3576"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f5adcc147801d10b2c0cc48946d43bd</block>
         <comment/>
-        <compiled_snapshot>66cf433b977685101f49765e6253afc1</compiled_snapshot>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
         <display_text/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <extended_inputs/>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0c37e38f-ee9d-4c15-86c1-19eb2039e6d7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>206a500547801d10b2c0cc48946d4338</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <ui_id>6fb21ef3-6369-47a3-923e-ceb25e25c646</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=206a500547801d10b2c0cc48946d4338"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1fac19c587df091008ea0d05dabb3538^id=206a500547801d10b2c0cc48946d4338"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=206a500547801d10b2c0cc48946d4338"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=206a500547801d10b2c0cc48946d4338"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e35adcc147801d10b2c0cc48946d43b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>task_sys_id</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
         <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:25:59</sys_created_on>
-        <sys_id>bfac19c587df091008ea0d05dabb35cd</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>246a500547801d10b2c0cc48946d430b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
-        <ui_id>d9abe7d6-2fe9-4741-bf73-8242c6319df9</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bfac19c587df091008ea0d05dabb35cd"/>
-    <sys_element_mapping action="delete_multiple" query="id=bfac19c587df091008ea0d05dabb35cd"/>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <ui_id>282f930d-39a9-4a07-bd15-acf132b5b816</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=246a500547801d10b2c0cc48946d430b"/>
+    <sys_element_mapping action="delete_multiple" query="id=246a500547801d10b2c0cc48946d430b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>extracted_values</field>
-        <id>bfac19c587df091008ea0d05dabb35cd</id>
+        <field>task_sys_id</field>
+        <id>246a500547801d10b2c0cc48946d430b</id>
         <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:26:00</sys_created_on>
-        <sys_id>f7ac19c587df091008ea0d05dabb35cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>206a500547801d10b2c0cc48946d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 14:19:54</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_1fac19c587df091008ea0d05dabb3538</table>
+        <value>{{Updated_1.current.source_record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=246a500547801d10b2c0cc48946d430b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=246a500547801d10b2c0cc48946d430b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">675adcc147801d10b2c0cc48946d43b9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>2c6a500547801d10b2c0cc48946d430e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <ui_id>0c37e38f-ee9d-4c15-86c1-19eb2039e6d7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2c6a500547801d10b2c0cc48946d430e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2c6a500547801d10b2c0cc48946d430e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>646a500547801d10b2c0cc48946d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <value>Sys Id is empty</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1fac19c587df091008ea0d05dabb3538^id=2c6a500547801d10b2c0cc48946d430e"/>
+    <sys_element_mapping action="delete_multiple" query="id=2c6a500547801d10b2c0cc48946d430e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2c6a500547801d10b2c0cc48946d430e</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>e06a500547801d10b2c0cc48946d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{flow_variable.task_sys_id}}=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2c6a500547801d10b2c0cc48946d430e</id>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:25</sys_created_on>
+        <sys_id>206a500547801d10b2c0cc48946d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_field_map</field>
-        <id>bfac19c587df091008ea0d05dabb35cd</id>
-        <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:26:00</sys_created_on>
-        <sys_id>7fac19c587df091008ea0d05dabb35cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:26:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
-        <value>{{flow_variable.target_map}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_record_sysid</field>
-        <id>bfac19c587df091008ea0d05dabb35cd</id>
-        <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:26:00</sys_created_on>
-        <sys_id>f3ac19c587df091008ea0d05dabb35d0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 13:48:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
-        <value>{{212cf0bb-bdef-4ff9-9a58-9006400b4576.Record.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_table_name</field>
-        <id>bfac19c587df091008ea0d05dabb35cd</id>
-        <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:26:00</sys_created_on>
-        <sys_id>33ac19c587df091008ea0d05dabb35d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:26:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
-        <value>{{212cf0bb-bdef-4ff9-9a58-9006400b4576.Table}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>task_id</field>
-        <id>bfac19c587df091008ea0d05dabb35cd</id>
-        <sys_created_by>loic</sys_created_by>
-        <sys_created_on>2022-05-04 18:26:00</sys_created_on>
-        <sys_id>bbac19c587df091008ea0d05dabb35cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-04 18:26:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_66cf433b977685101f49765e6253afc1</table>
-        <value>{{Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bfac19c587df091008ea0d05dabb35cd"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bfac19c587df091008ea0d05dabb35cd"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1fac19c587df091008ea0d05dabb3538"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=1fac19c587df091008ea0d05dabb3538^sys_idNOT INebac19c587df091008ea0d05dabb3576"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2c6a500547801d10b2c0cc48946d430e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2c6a500547801d10b2c0cc48946d430e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b8aa8d01879f091008ea0d05dabb35d2</block>
         <comment/>
@@ -1715,7 +2076,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</flow>
+        <flow display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</flow>
         <flow_variable/>
         <flow_variables_assigned>target_map</flow_variables_assigned>
         <inputs/>
@@ -1728,10 +2089,10 @@
         <sys_created_by>loic</sys_created_by>
         <sys_created_on>2022-05-04 18:25:58</sys_created_on>
         <sys_id>ebac19c587df091008ea0d05dabb3576</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-05-05 16:36:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:23:25</sys_updated_on>
         <ui_id>4267cce3-d99e-451f-97c3-f54399896a9e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1755,7 +2116,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ebac19c587df091008ea0d05dabb3576"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ebac19c587df091008ea0d05dabb3576"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1fac19c587df091008ea0d05dabb3538"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=1fac19c587df091008ea0d05dabb3538^sys_idNOT IN63ac19c587df091008ea0d05dabb3571"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1fac19c587df091008ea0d05dabb3538^sys_idNOT IN63ac19c587df091008ea0d05dabb3571,e86a100547801d10b2c0cc48946d43cd"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1795,7 +2156,7 @@
         <label>Target Map</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Employee Info Extract Values">1fac19c587df091008ea0d05dabb3538</model>
+        <model display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</model>
         <model_id>1fac19c587df091008ea0d05dabb3538</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_1fac19c587df091008ea0d05dabb3538</name>
@@ -1820,12 +2181,93 @@
         <sys_id>63ac19c587df091008ea0d05dabb3571</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Target Map</sys_name>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name>sys_hub_flow_variable_63ac19c587df091008ea0d05dabb3571</sys_update_name>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 18:25:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=885a843c-49f9-4c41-b6e7-65d91e3413a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Task Sys Id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Flow 3 - Extract and Set Values">1fac19c587df091008ea0d05dabb3538</model>
+        <model_id>1fac19c587df091008ea0d05dabb3538</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_1fac19c587df091008ea0d05dabb3538</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 20:23:24</sys_created_on>
+        <sys_id>e86a100547801d10b2c0cc48946d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Sys Id</sys_name>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_e86a100547801d10b2c0cc48946d43cd</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 20:23:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1852,9 +2294,9 @@
         <sys_id>27ac19c587df091008ea0d05dabb3553</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 18:25:58</sys_updated_on>
@@ -1875,9 +2317,9 @@
         <sys_id>2bac19c587df091008ea0d05dabb355b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 18:25:58</sys_updated_on>
@@ -1898,9 +2340,9 @@
         <sys_id>2fac19c587df091008ea0d05dabb354a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_package display_value="DocIntel Demo Employee Info" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope display_value="DocIntel Demo Employee Info">cf603c05871f091008ea0d05dabb3545</sys_scope>
         <sys_update_name/>
         <sys_updated_by>loic</sys_updated_by>
         <sys_updated_on>2022-05-04 18:25:58</sys_updated_on>
