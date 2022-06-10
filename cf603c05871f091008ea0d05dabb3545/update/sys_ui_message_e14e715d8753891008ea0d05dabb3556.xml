@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>i will need a proof of residency to continue, a utility bill or phone bill would work.</key>
+        <language>en</language>
+        <message>I will need a proof of residency to continue, a utility bill or phone bill would work.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-05 15:31:13</sys_created_on>
+        <sys_id>e14e715d8753891008ea0d05dabb3556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i will need a proof of residency to continue, a utility bill or phone bill would work.</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>sys_ui_message_e14e715d8753891008ea0d05dabb3556</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-05 15:31:13</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="DELETE">
+        <description/>
+        <operation>write</operation>
+        <rca_type>requested</rca_type>
+        <source/>
+        <source_scope display_value="Document Intelligence">a3769dd2c31030101d9a3cadb140dde9</source_scope>
+        <source_table/>
+        <source_type>5</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 18:18:38</sys_created_on>
+        <sys_id>bada154587df091008ea0d05dabb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a3769dd2c31030101d9a3cadb140dde9</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_bada154587df091008ea0d05dabb35c3</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 18:18:38</sys_updated_on>
+        <target name="sn_hr_core_profile" target_table="sys_db_object">7eaf4016477d0110b2c0cc48946d43bf</target>
+        <target_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</application>
+        <file_path/>
+        <instance_id>fc38034e1bb9051032182f8dee4bcb1f</instance_id>
+        <instance_name>outboundaidemo</instance_name>
+        <name>sys_restricted_caller_access_bada154587df091008ea0d05dabb35c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access"><sys_restricted_caller_access action="INSERT_OR_UPDATE"><description/><operation>write</operation><rca_type>requested</rca_type><source/><source_scope display_value="Document Intelligence">a3769dd2c31030101d9a3cadb140dde9</source_scope><source_table/><source_type>5</source_type><status>2</status><sys_class_name>sys_restricted_caller_access</sys_class_name><sys_created_by>loic</sys_created_by><sys_created_on>2022-05-04 18:18:38</sys_created_on><sys_id>bada154587df091008ea0d05dabb35c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>a3769dd2c31030101d9a3cadb140dde9</sys_name><sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package><sys_policy/><sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope><sys_update_name>sys_restricted_caller_access_bada154587df091008ea0d05dabb35c3</sys_update_name><sys_updated_by>loic</sys_updated_by><sys_updated_on>2022-05-04 18:18:38</sys_updated_on><target name="sn_hr_core_profile" target_table="sys_db_object">7eaf4016477d0110b2c0cc48946d43bf</target><target_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</target_scope><target_table>sys_db_object</target_table><target_type>1</target_type></sys_restricted_caller_access></record_update>]]></payload>
+        <payload_hash>896725227</payload_hash>
+        <record_name>a3769dd2c31030101d9a3cadb140dde9</record_name>
+        <reverted_from/>
+        <source>17603c05871f091008ea0d05dabb3548</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 18:18:38</sys_created_on>
+        <sys_id>080b914587df091008ea0d05dabb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180904ba66a0000001</sys_recorded_at>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 18:18:38</sys_updated_on>
+        <type>Restricted Caller Access Privilege</type>
+        <update_guid>400b914508df0910cb3aaa3a9b94f8d1</update_guid>
+        <update_guid_history>400b914508df0910cb3aaa3a9b94f8d1:896725227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-05-04 18:22:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_restricted_caller_access">sys_restricted_caller_access</sys_db_object>
+        <sys_id>887a066685ef4e858a3ae4b1eb217c19</sys_id>
+        <sys_metadata>bada154587df091008ea0d05dabb35c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a3769dd2c31030101d9a3cadb140dde9</sys_name>
+        <sys_package display_value="Employee Info with DocIntel" source="x_snc_employee_i_0">cf603c05871f091008ea0d05dabb3545</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Info with DocIntel">cf603c05871f091008ea0d05dabb3545</sys_scope>
+        <sys_scope_delete display_value="">b1b192a81edd4df480fc6e2a55a62461</sys_scope_delete>
+        <sys_update_name>sys_restricted_caller_access_bada154587df091008ea0d05dabb35c3</sys_update_name>
+        <sys_update_version display_value="sys_restricted_caller_access_bada154587df091008ea0d05dabb35c3">080b914587df091008ea0d05dabb35d1</sys_update_version>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-05-04 18:22:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
